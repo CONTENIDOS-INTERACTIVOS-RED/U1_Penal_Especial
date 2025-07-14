@@ -302,15 +302,39 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/6516?page=5 " target="_blank" rel="noopener noreferrer") Camara, M. (2006). Homicidios en América del Sur: ¿Los pobres son peligrosos? Red Revista de Economía Institucional. 
+
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/33312" target="_blank" rel="noopener noreferrer") Díaz Pérez, N. C. (2010). Discusión jurisprudencial sobre el dolo eventual y la culpa con representación en delitos de homicidio ocasionados en accidentes de tránsito. Logos Ciencia y Tecnología (2ª ed.). D - Dirección Nacional de Escuelas.  
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/28017?page=6 " target="_blank" rel="noopener noreferrer") Anaya de Pauta, B. S. (2012). El feminicidio: un atentado contra la dignidad de la mujer. Revista de Investigación Jurídica. IUS, 02(3). 
+
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=JTMEbUai9J0 " target="_blank" rel="noopener noreferrer") Sprouts Español. (2024). Las 10 Etapas del Genocidio [video]. YouTube. 
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=96IlcD8zz0E" target="_blank" rel="noopener noreferrer") ISRAEL BANGUERA. (2022). Homicidio preterintencional [video]. YouTube.  
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=rTU_8c3Gmq8 " target="_blank" rel="noopener noreferrer") Revista La 39 (Revista Virtual La 39). (2015). Capítulo 1: ¿Qué es el feminicidio? [video]. YouTube. 
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=3Wj8M-r-DzA " target="_blank" rel="noopener noreferrer") Augusto Sánchez: Sociología Jurídica. (2025). #246 La desaparición forzada en la Corte Interamericana de derechos humanos [video]. YouTube. 
+
+
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

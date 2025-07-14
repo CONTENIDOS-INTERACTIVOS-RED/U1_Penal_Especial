@@ -302,15 +302,37 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/6008 " target="_blank" rel="noopener noreferrer") Cotes Mestre, M. I. (2009). La despenalización del aborto en Colombia: una solución innecesaria. Persona y Bioética, 9(25). D - Universidad de La Sabana. 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              span Arboleda Vallejo, M., & Ruiz Salazar, J. A. (2025). Manual de Derecho Penal Especial. Editorial Leyer. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/101947" target="_blank" rel="noopener noreferrer") Juanate y Dorado, C. (1994). Derecho, suicidio y eutanasia. Ministerio de Justicia de España.  
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://doi.org/10.18273/saluduis.54.e:22046 " target="_blank" rel="noopener noreferrer") Zúñiga-Bolivar, S. M. & Bustamante de la Cruz, A. (2022). Prevalencia y factores asociados a los conocimientos sobre lesiones ocurridas en el hogar en cuidadores de niños menores de 5 años. Salud UIS, 54. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S1405-91932023000200457 " target="_blank" rel="noopener noreferrer") Vivas-Barrera, T. G. (2023). El lugar del derecho comparado en la despenalización del aborto en el sur global. Cuestiones constitucionales, (49), 457-487. 
+
+
+
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=ZI8q79lArF0 " target="_blank" rel="noopener noreferrer") Sonsón Televisión Oficial. (2017). CRECIENTE NÚMERO DE LESIONES PERSONALES [video]. YouTube. 
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=DwC15x5gUd8 " target="_blank" rel="noopener noreferrer") RevistaMSP. (2022). En Colombia despenalizaron el aborto hasta los 6 meses - ExclusivoMSP [video]. YouTube. 
+
+
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

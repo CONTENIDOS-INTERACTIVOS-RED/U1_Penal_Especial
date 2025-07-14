@@ -133,15 +133,39 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+              a(href="https://www.corteconstitucional.gov.co/relatoria/2007/c-291-07.htm " target="_blank" rel="noopener noreferrer") Corte Constitucional. (2007). MP. Manuel José Cepeda Espinosa. Sentencia C-291. 
+
 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/119781?page=10 " target="_blank" rel="noopener noreferrer") Gutiérrez Posse, H. D. T. (2016). Elementos de Derecho Internacional Humanitario. Eudeba. 
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/6368?page=5 " target="_blank" rel="noopener noreferrer") Angarita Piña, R. (2006). El derecho internacional humanitario: sus reglas, su interpretación y la corte penal internacional. Red Reflexión Política.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="http://www.scielo.org.co/scielo.php?script=sci_arttext&pid=S0041-90602012000100006  " target="_blank" rel="noopener noreferrer") Jaimes-Amado, M. C. & Prieto-Sanjuán, R. A. (2012). VIOLACIONES AL DERECHO INTERNACIONAL HUMANITARIO: PREVENIR, ANTES QUE SANCIONAR. Vniversitas, (124), 119-145. 
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S2448-51362021000300081" target="_blank" rel="noopener noreferrer") Villarreal Palos, A. (2021). Sobre la definición y contenido del derecho internacional penal y sus diferencias con el Derecho Penal internacional. Derecho global. Estudios sobre derecho y justicia, 7(19), 81-111.  
+
+ 
+
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=83l7trw3Y_o " target="_blank" rel="noopener noreferrer") Cultura Jurídica Org. (2020). Derecho Penal Internacional. Fernando Fernández. Estado del Derecho [video]. YouTube. 
+
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=wZlxV073Eak" target="_blank" rel="noopener noreferrer") Universidad Continental. (2021). Fundamentos doctrinarios del Derecho Internacional Humanitario [video]. YouTube.  
+
+
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
