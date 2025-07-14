@@ -124,6 +124,12 @@
           .col-lg
             p.mb-0.text-white Si una operación militar causa la destrucción de un hospital o escuela que no estaba siendo utilizada con fines bélicos, sin justificación válida, se incurre en una violación del DIH y en responsabilidad penal internacional y nacional (Contreras Ortiz, 2009).
 
+
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+          
     .bg-full-width.border-top.color-primario
       .p-4.p-md-5
         h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
@@ -185,3 +191,195 @@ export default {
 </script>
 
 <style lang="sass"></style>
+
+<script>
+import Actividad from '@/components/actividad/Actividad.vue'
+export default {
+  name: 'Tema6',
+  components: {
+    Actividad,
+  },
+  data() {
+    return {
+      cuestionario: {
+        tema: 'Penal Especial',
+        titulo: 'Ponte a prueba',
+        introduccion:
+          'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+        barajarPreguntas: true,
+        preguntas: [
+          {
+            id: 1,
+            texto:
+              'Una persona causa la muerte de otra con plena intención y premeditación. El hecho ocurre sin provocación previa. ¿Cuál es el tipo penal básico aplicable?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Homicidio doloso.',
+                esCorrecta: true,
+              },
+              {
+                id: 'b',
+                texto: 'Homicidio culposo.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Homicidio por piedad.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Tentativa de homicidio',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 2,
+            texto:
+              'Un hombre golpea a su pareja y le fractura la mandíbula. Ella requiere cirugía reconstructiva y presenta una incapacidad médica de más de 60 días. ¿Qué delito se configura?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Tentativa de homicidio.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Lesiones personales gravísimas.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Feminicidio.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Violencia intrafamiliar.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 3,
+            texto:
+              'Un grupo armado, con el fin de eliminar a un pueblo indígena, asesina a varios de sus miembros y desplaza al resto de la comunidad. ¿Qué delito se configura según el Código Penal colombiano?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Homicidio agravado.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Genocidio.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Desplazamiento forzado.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Crimen de guerra.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 4,
+            texto:
+              'Una persona es inducida a suicidarse por su pareja, quien la manipula psicológicamente para que se quite la vida. ¿Qué delito podría configurar esta conducta?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Homicidio por piedad.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Lesiones personales.',
+                esCorrecta: false,
+              },
+              {
+                id: 'c',
+                texto: 'Inducción o ayuda al suicidio.',
+                esCorrecta: true,
+              },
+              {
+                id: 'd',
+                texto: 'Violencia intrafamiliar.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+          {
+            id: 5,
+            texto:
+              'Un médico modifica intencionalmente el ADN de un embrión humano sin justificación terapéutica. ¿Qué delito describe esta conducta?',
+            imagen: '',
+            barajarRespuestas: true,
+            opciones: [
+              {
+                id: 'a',
+                texto: 'Aborto ilegal.',
+                esCorrecta: false,
+              },
+              {
+                id: 'b',
+                texto: 'Manipulación genética.',
+                esCorrecta: true,
+              },
+              {
+                id: 'c',
+                texto: 'Lesiones prenatales.',
+                esCorrecta: false,
+              },
+              {
+                id: 'd',
+                texto: 'Mala praxis médica.',
+                esCorrecta: false,
+              },
+            ],
+            mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+            mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          },
+        ],
+        mensaje_final_aprobado:
+          '¡Felicidades! Has superado la prueba con éxito.',
+        mensaje_final_reprobado:
+          'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+      },
+    }
+  },
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+}
+</script>
+
+<style lang="sass">
+.bg-color-actividad
+  background-color: #EBF1F5
+</style>

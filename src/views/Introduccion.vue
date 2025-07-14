@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.introduccion
   BannerInterno(subTitulo="Introducción")
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.px-4.px-md-5.pt-4.pt-md-5.mb-5
 
     .row
       .col-lg-4.mb-3.mb-lg-0
@@ -17,7 +17,7 @@
         p(data-aos="fade-left") Al finalizar la unidad, se espera que el estudiante evalúe los diferentes tipos penales que afectan la vida humana, identifique los elementos constitutivos de cada figura delictiva, y aplique los conceptos adquiridos en la interpretación de situaciones reales o hipotéticas. Igualmente, se busca propiciar una comprensión crítica sobre la función de estos tipos penales en la garantía de los derechos fundamentales, particularmente en contextos donde convergen el Derecho Penal interno y el Derecho Internacional Humanitario (DIH).
     
     .bg-full-width.bg-color-3
-      .p-4.p-md-5
+      .px-4.px-md-5.pt-4
         .row.justify-content-center.align-items-center.bg-color-2.px-4.mb-5
           .col-lg-12
             .row.justify-content-center.align-items-center
@@ -27,7 +27,7 @@
               .col-lg-3(data-aos="zoom-in")
                 img.img-fluid(src='@/assets/curso/intro/3.svg', style="max-width:486px", alt="" ).mx-auto.mx-lg-0.ms-lg-auto.mb-4.mb-lg-0
 
-        .bg-full-width.bg-color-4.mb-5
+        .bg-full-width.bg-color-4.mb-0
           .px-4.px-md-5.py-4
             .row.align-items-center
               .col-lg-auto

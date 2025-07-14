@@ -1,7 +1,7 @@
 export default {
   global: {
     numeroUnidad: '1',
-    tituloUnidad: 'Delitos contra la vida y el patrimonio económico',
+    tituloUnidad: 'Delitos contra la vida',
   },
   menuPrincipal: {
     menu: [
@@ -97,75 +97,6 @@ export default {
             numero: '3.2',
             titulo: 'Bienes y misiones protegidos',
             hash: 't_3_2',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo: 'Afectaciones directas al patrimonio: el hurto y la estafa',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: 'Hurto simple y calificado',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo: 'Estafa',
-            hash: 't_4_2',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
-        numero: '5',
-        titulo: 'Formas indirectas de afectación: fraude, abuso y usurpación ',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Fraude mediante cheque',
-            hash: 't_5_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo: 'Abuso de confianza',
-            hash: 't_5_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '5.3',
-            titulo: 'Usurpación',
-            hash: 't_5_3',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
-        numero: '6',
-        titulo: 'Extorsión y daño en bien ajeno',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.1',
-            titulo: 'Extorsión',
-            hash: 't_6_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.2',
-            titulo: 'Daño en bien ajeno',
-            hash: 't_6_2',
           },
         ],
       },
